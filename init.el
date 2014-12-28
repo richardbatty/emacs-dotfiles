@@ -24,3 +24,4 @@
 (load-user-file "auto-complete-settings.el")
 (load-user-file "flycheck-settings.el")
 (load-user-file "presentation-settings.el")
+(load-user-file "ruby-settings.el")
