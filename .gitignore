@@ -1,6 +1,7 @@
 # emacs temp files
 *~
 .#*
+ac-comphist.dat
 
 # session information
 auto-save-list/

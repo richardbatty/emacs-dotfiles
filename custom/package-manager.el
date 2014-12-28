@@ -1,7 +1,10 @@
 (require 'package)
 
 ; list required packages
-(setq package-list '(better-defaults))
+(setq package-list '(better-defaults
+                     smex
+                     auto-complete
+                     flycheck))
 
 ;; Add the original Emacs Lisp Package Archive
 (add-to-list 'package-archives

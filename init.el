@@ -12,6 +12,7 @@
 )
 
 (defconst user-init-dir "~/.emacs.d/custom")
+(defconst elpa-dir "~/.emacs.d/elpa")
 
 (defun load-user-file (file)
   (interactive "f")
@@ -19,3 +20,7 @@
 
 (load-user-file "package-manager.el")
 (load-user-file "mouse.el")
+(load-user-file "smex-settings.el")
+(load-user-file "auto-complete-settings.el")
+(load-user-file "flycheck-settings.el")
+(load-user-file "presentation-settings.el")
