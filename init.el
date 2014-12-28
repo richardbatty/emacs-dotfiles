@@ -17,4 +17,5 @@
   (interactive "f")
   (load-file (expand-file-name file user-init-dir)))
 
+(load-user-file "package-manager.el")
 (load-user-file "mouse.el")

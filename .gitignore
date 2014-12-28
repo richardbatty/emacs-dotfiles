@@ -4,3 +4,7 @@
 
 # session information
 auto-save-list/
+places
+
+# elpa packages
+elpa/
