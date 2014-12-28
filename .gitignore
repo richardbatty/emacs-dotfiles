@@ -9,3 +9,6 @@ places
 
 # elpa packages
 elpa/
+
+# mac files
+.DS_STORE
