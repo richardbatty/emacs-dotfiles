@@ -4,7 +4,8 @@
 (setq package-list '(better-defaults
                      smex
                      auto-complete
-                     flycheck))
+                     flycheck
+                     enh-ruby-mode))
 
 ;; Add the original Emacs Lisp Package Archive
 (add-to-list 'package-archives
@@ -12,7 +13,9 @@
 ;; Add the user-contributed repository
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/"))
-
+;; Add melpa
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.milkbox.net/packages/"))
 
 ; activate all the packages
 (package-initialize)
