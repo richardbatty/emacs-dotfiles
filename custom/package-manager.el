@@ -5,7 +5,8 @@
                      smex
                      auto-complete
                      flycheck
-                     enh-ruby-mode))
+                     enh-ruby-mode
+                     color-theme-solarized))
 
 ;; Add the original Emacs Lisp Package Archive
 (add-to-list 'package-archives
