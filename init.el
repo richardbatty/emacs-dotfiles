@@ -30,3 +30,4 @@
 (load-user-file "ruby-settings.el")
 (load-user-file "navigation.el")
 (load-user-file "theme-settings.el")
+(load-user-file "emmet-settings.el")

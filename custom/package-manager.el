@@ -6,7 +6,8 @@
                      auto-complete
                      flycheck
                      enh-ruby-mode
-                     color-theme-solarized))
+                     color-theme-solarized
+                     emmet-mode))
 
 ;; Add the original Emacs Lisp Package Archive
 (add-to-list 'package-archives
